@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Quran_App",
-    "slug": "Quran_App",
+    "slug": "quranapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,6 +22,33 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "58bea29e-8d4c-493e-9484-db7edc7577a5"
+      }
+    },
+    "owner": "mutiara1616",
+    "fonts": [
+      {
+        "asset": "./assets/fonts/Poppins-Regular.ttf",
+        "family": "Poppins-Regular"
+      },
+      {
+        "asset": "./assets/fonts/Poppins-Medium.ttf",
+        "family": "Poppins-Medium"
+      },
+      {
+        "asset": "./assets/fonts/Poppins-SemiBold.ttf",
+        "family": "Poppins-SemiBold"
+      },
+      {
+        "asset": "./assets/fonts/Poppins-Bold.ttf",
+        "family": "Poppins-Bold"
+      }
+    ],
+    "plugins": [
+      "expo-font"
+    ]
   }
 }
